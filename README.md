@@ -30,7 +30,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data = pd.read_csv(r"C:\Users\gowsa\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\7F3DFCAEF19CB6317FED1FA54440B9EB9F6B28FB\transfers\2026-17\Startup.csv")
+data = pd.read_csv("Startup.csv")
 
 X = data['R&D Spend'].values
 y = data['Profit'].values
